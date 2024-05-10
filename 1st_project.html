@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            color: white;
+            font-weight: bold;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(20, 19, 19);
+
+
+        }
+        header{
+            height: 60px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-bottom: 1px solid black;
+        }
+        ul{
+            display: flex;
+            justify-content: space-around;
+            color: white;
+            list-style-type: none;
+        }
+        ul li a{
+            margin: 0 8px 8px;
+            border: 1px solid white;
+            padding: 0px 10px;
+            border-radius: 50px;
+            text-decoration: none;
+        }
+        .logo{
+            margin: 0 8px 8px;
+            border: 1px solid white;
+            padding: 0px 10px;
+            border-radius: 50px;
+        }
+        .signup{
+            background-color: white;
+            color: black;
+            margin: 0 8px 8px;
+            border: 1px solid white;
+            padding: 0px 10px;
+            border-radius: 50px;
+        }
+        .signup:hover{
+            background-color: black;
+            color: white;
+        }
+        main{
+            display: flex;
+            /* justify-content: space-around; */
+            align-items: center;
+            margin-top: 10px;
+        }
+        div{
+            list-style-type: none;
+        }
+        img{
+            max-height: 200px;
+            max-width: auto;
+            margin-right: 100px;
+            border-radius: 5px;
+        }
+        .book_name{
+            margin-left: 20px;
+            font-size: large;
+        }
+        .book_detail{
+            margin-left: 200px;
+            margin-right: 200px;
+
+        }
+        .button{
+            border-radius: 5px;
+            background-color: white;
+            color: black;
+            margin: 0 8px 8px;
+            border: 1px solid white;
+            padding: 0px 10px;
+            border-radius: 10px;
+            text-decoration: none;
+            position: absolute;
+            align-items: center;
+            margin-left: 45%;
+        }
+        .button:hover{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2 class="logo">LOGO</h2>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">OFFERS</a></li>
+                <li><a href="#">BUY NOW</a></li>
+                <li><a href="#">SELL NOW</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#" class="signup">SIGN UP</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="book_name">
+            Harry Potter </div>
+        <div class="book_detail">The most recent novel on this list, Harry Potter and the Sorcerer’s Stone brings readers into a world of magic at Hogwarts School of Witchcraft and Wizardry. On his eleventh birthday, Harry’s magical heritage is brought to light by the bumbling half-giant Hagrid. As he embarks on his new life as a wizard, he finds that there’s more to this news than just learning spells and potions. The Dark Lord Voldemort, who had tried and failed to kill Harry as an infant, is regaining power, and Harry stands in his path.</div>
+        <div><img src="book.jpg" alt="book"></div>
+        
+    </main>
+    <a class="button" href="#">BUY NOW</a>
+</body>
+</html
